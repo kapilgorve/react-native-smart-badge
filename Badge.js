@@ -22,6 +22,7 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center',
         flexDirection: 'row',
+        opacity:0,
     },
     text: {
         paddingVertical: 2,
@@ -101,6 +102,7 @@ export default class Badge extends Component {
                 width,
                 height,
                 borderRadius,
+                opacity:1,
             },
         });
     }
